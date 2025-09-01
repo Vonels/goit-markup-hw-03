@@ -1,46 +1,50 @@
 *, *::before, *::after {
-    box-sizing: border-box;
+     box-sizing: border-box;
 }
-
-header {
-    background-color: #FFFFFF;
-    padding: 20px 0;
-    border-bottom: 1px solid #e0e0e0;
+.header-title {
+     background-color: #FFFFFF;
+     padding: 20px 0;
+     border-bottom: 1px solid #e739fc;
 }
 body {
-    color: #434455;
-    background-color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
+     color: #434455;
+     background-color: #FFFFFF;
+     font-family: "Roboto", sans-serif;
+     font-weight: 100;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 2%;
 }
 
 h1,h2,h3 {
-    margin: 0;
+     margin: 0;
 }
 
 p {
-    margin: 0;
+     margin: 0;
 }
 
 ul {
-    margin: 0;
-    padding-left: 0;
-    list-style-type: none;
+     margin: 0;
+     padding-left: 0;
+     list-style-type: none;
+}
+
+img {
+     display: block;
 }
 
 .container { 
-box-sizing: border-box;
-max-width: 1158;
-max-height: 72px;
-padding-left: 0;  
-padding-right: 0;  
-margin-left: 0; 
-margin-right: 0;
+     box-sizing: border-box;
+     max-width: 1158;
+     max-height: 72px;
+     padding-left: 0;  
+     padding-right: 0;  
+     margin-left: 0; 
+     margin-right: 0;
 }
 
+/* Top line */
 .logo-title {
      font-family: "Raleway", sans-serif;
      font-weight: 700;
@@ -49,50 +53,93 @@ margin-right: 0;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4d5ae5;
-     margin-right: 40px;
+     margin-right: 76px;
+}
+
+.nav-list {
+     display: flex;
+     align-items: center;
 }
 
 .page-nav {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0;
-margin: 0;
-gap: 40px;
-
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 0;
+     margin: 0;
+     gap: 40px;
 }
 
 .logo-title-logo {
     color: #2e2f42;
 }
 
+.page-nav-list {
+    padding: 24px 0;
+}
+
 .addreess-title {
   display: flex;
-  gap: 20px;
+  gap: 40px;
+}
+/* Title and button */
+
+.fon-title {
+    background-color: #2e2f42;
+    color: #fff;
+    padding: 188px 0;
+    text-align: center;
 }
 
 .heading-title {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-margin-bottom: 30px;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 1.07;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: #FFFFFF;
+     margin-bottom: 30px;
+     max-width: 496px;
+}
+
+.button-title {
+     display: block;
+     background-color: #4d5ae5;
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: #FFFFFF;
+     cursor: pointer;
+     padding: 12px 32px;
+     border:none;
+     border-radius: 4px;
+     min-width: 169px;
+     height: 56px;
+}
+
+.button-title:hover {
+     background-color: #404BBF;
+}
+
+.button-title:focus {
+     background-color: #404BBF;
 }
 
 .op-title {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 0.02em;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 30px;
+     font-family: "Roboto", sans-serif;
+     font-weight: bold;
+     font-size: 36px;
+     letter-spacing: 0.02em;
+     line-height: 1.11;
+     text-align: center;
+     text-transform: capitalize;
+     color: #2e2f42;
+     margin-bottom: 30px;
 }
 
 .ul-title {
@@ -112,36 +159,6 @@ margin-bottom: 30px;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-}
-
-.fon-title {
-    background-color: #2e2f42;
-    color: #fff;
-    padding: 120px 0;
-    text-align: center;
-}
-
-.button-title {
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-    padding: 12px 32px;
-    border:none;
-    border-radius: 4px;
-}
-
-.button-title:hover {
-    background-color: #404BBF;
-}
-
-.button-title:focus {
-     background-color: #404BBF;
 }
 
 .link-title {
@@ -204,16 +221,6 @@ margin-bottom: 30px;
 
 .footer-title-logo {
     color: #f4f4fd
-}
-
-.container-header {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .spdt-list {
