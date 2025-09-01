@@ -44,6 +44,9 @@ img {
      margin-right: 0;
 }
 
+.section {
+     padding: 120px 0;
+}
 /* Top line */
 
 .logo-title {
@@ -124,13 +127,6 @@ img {
 
 /* Title and button */
 
-.fon-title {
-     background-color: #2e2f42;
-     color: #fff;
-     padding: 188px 0;
-     text-align: center;
-}
-
 .heading-title {
      font-family: 'Roboto';
      font-style: normal;
@@ -171,10 +167,6 @@ img {
 }
 
 /* Our Portfolio */
-
-.section-portfolio {
-     padding: 60px 0;
-}
 
 .op-title {
      font-family: "Roboto", sans-serif;
@@ -226,10 +218,6 @@ img {
 
 .spdt-list .item {
      width: calc((100%-32px) / 3);
-}
-
-.section-spdt {
-     padding: 60px 0;
 }
 
 .visually-hidden {
