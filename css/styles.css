@@ -211,6 +211,7 @@ img {
 }
 .footer-title {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-title-p {
@@ -273,4 +274,9 @@ overflow: hidden;
    justify-content:space-between;
    align-content: center;
     gap: 20px;
+}
+
+.footer-title a {
+    display: inline-block;
+    margin-bottom: 16px;
 }
