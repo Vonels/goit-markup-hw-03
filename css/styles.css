@@ -34,9 +34,12 @@ img {
      display: block;
 }
 
+.section {
+     padding: 120px 0;
+}
 .container { 
      box-sizing: border-box;
-     max-width: 1158;
+     width: 1158px;
      max-height: 72px;
      padding-left: 15px;  
      padding-right: 15px;  
@@ -82,7 +85,7 @@ img {
 }
 
 .page-nav-list {
-     padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .link-title {
@@ -137,11 +140,8 @@ img {
 
 
 /* Title and button */
+
 .section-title {
-    background-color: #2e2f42;
-    color: #fff;
-    padding: 188px 0;
-    text-align: center;
     background-color: #2e2f42;
     color: #fff;
     padding: 188px 0;
@@ -189,6 +189,13 @@ img {
 
 /* Our Portfolio */
 
+.container-our {
+     background-color:#e7e9fc;
+     color: #FFFFFF;
+     display: block;
+     padding: 120px 0;
+}
+
 .section-portfolio {
      padding: 120px 0 120px 0;
 }
@@ -231,6 +238,7 @@ img {
 
 .section-spdt {
      padding: 120px 0;
+     display: block;
 }
 .photo-title {
      background-color: #F4F4FD;
@@ -279,12 +287,11 @@ img {
 }
 
 .section-our {
-     background-color: #F4F4FD;
-    padding: 120px 0;
-    text-align: center;
+     display: flex;
      background-color: #F4F4FD;
      padding: 120px 0;
      text-align: center;
+     margin-bottom: 40px;
 }
 
 .port-list {
@@ -302,6 +309,7 @@ img {
 .footer-title {
      background-color: #2e2f42;
      padding: 100px 0;
+     margin-bottom: 100px 0;
 }
 
 .footer-title-p {
@@ -318,3 +326,4 @@ img {
      display: inline-block;
      margin-bottom: 16px;
 }
+
