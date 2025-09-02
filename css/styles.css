@@ -83,10 +83,6 @@ img {
      color: #2e2f42;
 }
 
-.header-list {
-    padding: 24px 0 24px;
-}
-
 .link-title {
      font-family: "Roboto", sans-serif;
      font-weight: 500;
@@ -94,7 +90,9 @@ img {
      line-height: 1.5;
      letter-spacing: 0.02em;
      text-decoration: underline;
-     color: #2e2f42
+     color: #2e2f42;
+     padding: 24px 0;
+     
 }
 
 .link-title:hover, .link-title:focus {
