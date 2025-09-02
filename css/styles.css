@@ -44,9 +44,6 @@ img {
      margin-right: 0;
 }
 
-.section {
-     padding: 120px 0;
-}
 /* Top line */
 
 .logo-title {
@@ -72,6 +69,7 @@ img {
      padding: 0;
      margin: 0;
      gap: 40px;
+     padding: 15px 0;
 }
 
 .logo-title-logo {
@@ -121,11 +119,26 @@ img {
 }
 
 .addreess-title {
-     display: flex;
-     gap: 40px;
+    justify-content: flex-end;
 }
 
+.addreess-list {
+     display: flex;
+     gap: 40px;     
+}
+
+
 /* Title and button */
+.section-title {
+    background-color: #2e2f42;
+    color: #fff;
+    padding: 188px 0;
+    text-align: center;
+    background-color: #2e2f42;
+    color: #fff;
+    padding: 188px 0;
+    text-align: center;
+}
 
 .heading-title {
      font-family: 'Roboto';
@@ -168,6 +181,10 @@ img {
 
 /* Our Portfolio */
 
+.section-portfolio {
+     padding: 60px 0;
+}
+
 .op-title {
      font-family: "Roboto", sans-serif;
      font-weight: bold;
@@ -177,7 +194,7 @@ img {
      text-align: center;
      text-transform: capitalize;
      color: #2e2f42;
-     margin-bottom: 30px;
+     margin-bottom: 72px;
 }
 
 .ul-title {
@@ -190,6 +207,7 @@ img {
      font-size: 20px;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     margin-bottom: 8px;
 }
 .spdt-title-section {
      font-family: "Roboto", sans-serif;
@@ -199,25 +217,33 @@ img {
      line-height: 1.5;
 }
 
+.section-spdt {
+     padding: 120px 0;
+}
 .photo-title {
      background-color: #F4F4FD;
-     padding: 120px 0;
      text-align: center;
 }
 
 .photo-list {
      background-color: #FFFFFF;
+     width: calc((100%-72px) / 4);
+     border-radius: 0px 0px 4px 4px;
 }
 
 .spdt-list {
      display: flex;
      flex-wrap: wrap;
-     gap: 20px;
+     gap: 24px;
     
 }
 
-.spdt-list .item {
-     width: calc((100%-32px) / 3);
+.name-photo {
+     padding: 32px 0;
+     margin-bottom: 8px;
+}
+.item {
+     width: calc((100%-72px) / 4);
 }
 
 .visually-hidden {
@@ -236,7 +262,17 @@ img {
 .our-list {
      display: flex;
      justify-content: center;
-     gap: 72px;
+     gap: 24px;
+     
+}
+
+.section-our {
+     background-color: #F4F4FD;
+    padding: 120px 0;
+    text-align: center;
+     background-color: #F4F4FD;
+     padding: 120px 0;
+     text-align: center;
 }
 
 /* footer */
